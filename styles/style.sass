@@ -15,20 +15,17 @@ body
     flex-direction: column
     justify-content: center
     align-items: center
-
-p
+p, span
     font-size: $fs-paragraph
     color: $dark-grayish-blue
     font-weight: $fw-regular
     line-height: 28px
-
 h1
     font-family: $ff-serif
     font-size: $fs-header
     color: $very-dark-blue
     font-weight: $fw-bold
     margin: 1rem 0
-
 .wrapper
     display: flex
     max-width: 700px
@@ -36,18 +33,15 @@ h1
     border-radius: 14px
     overflow: auto
     margin: auto
-
 section.preview,
 section.description
     width: 50%
     min-height: 300px
     min-width: 300px
-
 section.preview
     background: url('../assets/images/image-product-desktop.jpg') center center no-repeat
     background-size: cover
     animation: breath 100s linear infinite
-
 section.description
     padding: 40px
 
@@ -56,21 +50,17 @@ p.caption
     font-size: .8rem
     letter-spacing: .3rem
     margin: 0
-
 .price 
     display: flex
     align-items: center
-
     .discount
         font-family: $ff-serif
         color: $green
         font-size: $fs-header
         font-weight: $fw-bold
         margin: 30px 40px 40px 0
-
     .no-discount
         text-decoration: line-through
-
 button
     width: 100%
     text-align: center
@@ -78,14 +68,11 @@ button
     border-radius: 10px
     border: none
     cursor: pointer
-
     &:hover
         background-color: $dark-green
-    
-    p
+    span
         color: $white
         font-weight: $fw-bold
-
         &::before
             content: url("../assets/images/icon-cart.svg")
             margin-right: 10px

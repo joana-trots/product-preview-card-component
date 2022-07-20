@@ -22,7 +22,7 @@ body {
   align-items: center;
 }
 
-p {
+p, span {
   font-size: 14px;
   color: hsl(228deg, 12%, 48%);
   font-weight: 500;
@@ -96,11 +96,11 @@ button {
 button:hover {
   background-color: hsl(158deg, 39%, 24%);
 }
-button p {
+button span {
   color: hsl(0deg, 0%, 100%);
   font-weight: 700;
 }
-button p::before {
+button span::before {
   content: url("../assets/images/icon-cart.svg");
   margin-right: 10px;
   vertical-align: sub;
