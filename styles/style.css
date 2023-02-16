@@ -1,10 +1,5 @@
-@import 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap'; /* FONTS */
-/* Font families */
-/* Font weights */
-/* Font sizes */
-/* COLORS*/
-/* Primary Colors */
-/* Neutral Colors */
+@import 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap'; 
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -46,20 +41,20 @@ h1 {
   margin: auto;
 }
 
-section.preview,
-section.description {
+.preview,
+.description {
   width: 50%;
   min-height: 300px;
   min-width: 300px;
 }
 
-section.preview {
+.preview {
   background: url("../assets/images/image-product-desktop.jpg") center center no-repeat;
   background-size: cover;
   animation: breath 100s linear infinite;
 }
 
-section.description {
+.description {
   padding: 40px;
 }
 
@@ -124,15 +119,15 @@ button span::before {
     max-width: 375px;
     margin: auto 20px;
   }
-  section.preview,
-section.description {
+  .preview,
+  .description {
     width: 100%;
   }
-  section.preview {
+  .preview {
     background-image: url("../assets/images/image-product-mobile.jpg");
     animation: none;
   }
-  section.description {
+  .description {
     padding: 30px;
   }
   h1, .price .discount {
